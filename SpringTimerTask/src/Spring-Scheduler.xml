@@ -3,7 +3,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
  
-<bean id="schedulerTask" 
+<bean id="timerTask" 
   class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
 	<property name="targetObject" ref="runMeTask" />
 	<property name="targetMethod" value="printMe" />
@@ -11,17 +11,17 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
  
 <bean id="runMeTask" class="RunMeTask" />
  
-<bean id="timerTask"
+<bean id="scheduledTimerTask"
 	class="org.springframework.scheduling.timer.ScheduledTimerTask">
-	<property name="timerTask" ref="schedulerTask" />
-	<property name="delay" value="1000" />
-	<property name="period" value="60000" />
+	<property name="timerTask" ref="timerTask" />
+	<property name="delay" value="100" />
+	<property name="period" value="600" />
 </bean>
  
 <bean class="org.springframework.scheduling.timer.TimerFactoryBean">
 	<property name="scheduledTimerTasks">
 		<list>
-			<ref local="timerTask" />
+			<ref local="scheduledTimerTask" />
 		</list>
 	</property>
 </bean>
