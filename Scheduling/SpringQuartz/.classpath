@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/spring.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/quartz-1.8.6/quartz-all-1.8.6.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-aop.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-beans.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-context.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-core.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-jms.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-orm.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-test.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-tx.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-web.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-webmvc-portlet.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/dist/modules/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/lib/jakarta-commons/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/quartz-1.8.6/lib/slf4j-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/quartz-1.8.6/lib/slf4j-log4j12-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/hemant/installed/spring-framework-2.5/lib/log4j/log4j-1.2.14.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
