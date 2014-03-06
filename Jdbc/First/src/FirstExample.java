@@ -27,7 +27,7 @@ public class FirstExample {
       String sql;
       sql = "SELECT id, first, last, age FROM Employees";
       ResultSet rs = stmt.executeQuery(sql);
-
+      
       //STEP 5: Extract data from result set
       while(rs.next()){
          //Retrieve by column name
