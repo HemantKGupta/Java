@@ -31,9 +31,6 @@ public class StringMethodTest {
 	      char [] charArray = {'a','b','c','d'};
 	      System.out.println( "The charArray is string is:"+ String.copyValueOf(charArray));
 	      
-	      //boolean endsWith(String suffix) 
-	      //Tests if this string ends with the specified suffix.
-	      
 	      //void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 	      //Copies characters from this string into the destination character array.
 	      char [] charArray2 = new char[10];	      
@@ -93,7 +90,11 @@ public class StringMethodTest {
 	      
 	      //boolean startsWith(String prefix)
 	      //Tests if this string starts with the specified prefix.
+	      System.out.println("The string starts with jan: "+str.startsWith("jan"));
 	      
+	      //boolean endsWith(String suffix) 
+	      //Tests if this string ends with the specified suffix.
+	      System.out.println("The string starts with march "+str.endsWith("march"));
 	      
 	      //CharSequence subSequence(int beginIndex, int endIndex)
 	      //Returns a new character sequence that is a subsequence of this sequence.
