@@ -1,0 +1,13 @@
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList();
+
+		Comparator comp = Collections.reverseOrder();
+
+		Collections.sort(list, comp)
+	}
+
+}

@@ -1,0 +1,38 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<String>();
+		
+		list.add("mfnew");
+		list.add("Vdsfw");
+		
+		list.add("Dsfve");
+		list.add("vwe");
+		
+		for (String string : list) {
+			System.out.println(string);
+		}
+        
+		Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
+		
+		for (String string : list) {
+			System.out.println(string);
+		}
+		
+		Comparator<String> comp = Collections.reverseOrder();
+
+		Collections.sort(list, comp);
+		for (String string : list) {
+			System.out.println(string);
+		}
+	}
+
+}

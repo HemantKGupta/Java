@@ -1,0 +1,35 @@
+package com.hkg.test;
+
+import java.text.DateFormatSymbols;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Formatter;
+
+public class DateTimeTest {
+
+	public static void main(String[] args) {
+		
+		  Date date = new Date();
+	      String strDateFormat = "HH:mm:ss a";
+	      SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
+	      System.out.println(sdf.format(date));
+	      
+	      Formatter fmt = new Formatter();
+	      Calendar cal = Calendar.getInstance();
+	      fmt = new Formatter();
+	      fmt.format("%tB %tb %tm", cal, cal, cal);
+	      System.out.println(fmt);
+	      fmt.format("%tl:%tM", cal, cal);
+	      System.out.println(fmt);
+	      fmt.format("%tc", cal);
+	      System.out.println(fmt);
+	      
+	      String[] weekdays = new DateFormatSymbols().getWeekdays();
+	      for (int i = 2; i < (weekdays.length-1); i++) {
+	         String weekday = weekdays[i];
+	         System.out.println("weekday = " + weekday);
+	      }
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="830" key="DIALOG_WIDTH"/>
+	<item value="12" key="DIALOG_Y_ORIGIN"/>
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="693" key="DIALOG_HEIGHT"/>
+	<item value="324" key="DIALOG_X_ORIGIN"/>
+	<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="256" key="DIALOG_Y_ORIGIN"/>
+		<item value="471" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

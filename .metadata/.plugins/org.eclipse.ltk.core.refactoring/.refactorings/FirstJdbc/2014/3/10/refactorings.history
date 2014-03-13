@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;mysql-connector-java-5.1.18-bin.jar&apos; to &apos;JdbcExamples&apos;&#x0A;- Original project: &apos;FirstJdbc&apos;&#x0A;- Destination element: &apos;JdbcExamples&apos;&#x0A;- Original element: &apos;FirstJdbc/mysql-connector-java-5.1.18-bin.jar&apos;" description="Copy source folder" element1="/mysql-connector-java-5.1.18-bin.jar" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1394119436465" target="/JdbcExamples" version="1.0"/>
+</session>
