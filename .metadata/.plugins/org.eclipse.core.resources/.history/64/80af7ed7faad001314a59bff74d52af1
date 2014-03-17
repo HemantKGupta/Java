@@ -1,0 +1,14 @@
+public class ArrayTest {
+
+	public static void main(String[] args) {
+
+		double[] myList1 = new double[10];
+
+		for (double element : myList1) {
+			System.out.println("The element is: " + element);
+		}
+
+		double[] myList2 = { 1.9, 2.9, 3.4, 3.5 };
+	}
+
+}

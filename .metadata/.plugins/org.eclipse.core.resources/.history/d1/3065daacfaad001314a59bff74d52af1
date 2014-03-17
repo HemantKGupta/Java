@@ -1,0 +1,23 @@
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		
+		   double[] myList1 = new double[10];
+		   
+		   double[] myList = {1.9, 2.9, 3.4, 3.5};
+
+		      // Print all the array elements
+		      for (double element: myList1) {
+		         System.out.println("The element is: "+element);
+		      }
+		
+		 
+
+}

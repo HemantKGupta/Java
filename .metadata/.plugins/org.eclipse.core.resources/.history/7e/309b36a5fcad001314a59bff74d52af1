@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+
+		double[] myList1 = new double[10];
+
+		for (double element : myList1) {
+			System.out.println("The element is: " + element);
+		}
+
+		double[] myList2 = { 1.9, 2.9, 3.4, 3.5 };
+		
+		double[] myList3 = new double[3];
+		System.arraycopy(myList2, 0, myList3, 0,3);
+		
+		for (double element : myList3) {
+			System.out.println("The element is: " + element);
+		}
+		
+		//Arrays.binarySearch(a, fromIndex, toIndex, key, c);
+	    double[] myList4 =   Arrays.copyOf(myList3, 3);
+	    for (double element : myList4) {
+			System.out.println("The element is: " + element);
+		}
+	    double[] myList5 = new double[5];
+	    Arrays.fill(myList5, 3.6);
+	    for (double element : myList5) {
+			System.out.println("The element is: " + element);
+		}
+	      
+	}
+
+}

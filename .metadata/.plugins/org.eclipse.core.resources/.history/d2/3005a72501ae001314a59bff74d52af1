@@ -1,0 +1,30 @@
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+
+		Double[] myList1 = new Double[2];
+
+		printArray(myList1);
+
+		Double[] myList2 = { 1.9, 2.9, 3.4, 3.5 };
+		
+		printArray(myList1);
+		
+		Double[] myList3 = new Double[3];
+		
+		System.arraycopy(myList2, 0, myList3, 0,3);
+		
+		v
+		
+		
+	}
+	
+	public static<T> void printArray(T[] array){
+		 for (T element : array) {
+				System.out.println("The element is: " + element);
+			}
+		
+	}
+
+}
