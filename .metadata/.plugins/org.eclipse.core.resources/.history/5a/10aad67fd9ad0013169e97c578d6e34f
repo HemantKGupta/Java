@@ -1,0 +1,11 @@
+
+public class CustomExceptionExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class MyException extends Exception{
+}

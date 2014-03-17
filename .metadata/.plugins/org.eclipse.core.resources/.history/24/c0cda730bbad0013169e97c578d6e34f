@@ -1,0 +1,20 @@
+
+public class NumberTest {
+
+	public static void main(String[] args) {
+		Integer x = 5; // boxes int to an Integer object
+	    x =  x + 9;   // unboxes the Integer to a int
+	    System.out.println(x); 
+	    System.out.println("The max value is:" +Integer.MAX_VALUE);
+	    System.out.println("The min value is:" +Integer.MIN_VALUE);
+	    System.out.println("The bit count is" +Integer.bitCount(x));
+	    System.out.println("The decode is" +Integer.decode("0x12"));
+	    System.out.println("The highest one bit is" +Integer.highestOneBit(x));
+	    System.out.println("The leading zeros is" +Integer.numberOfLeadingZeros(x));
+	    System.out.println("The reverse is" +Integer.reverse(x));
+	    System.out.println("The ROTATE	LEFT BY 2 is" +Integer.rotateLeft(x, 2));
+	    System.out.println("The BINARY string is" +Integer.toBinaryString(x));
+	    
+	}
+
+}

@@ -8,7 +8,17 @@ import java.util.List;
 public class ArrayTest {
 
 	public static void main(String[] args) {
-		Integer[] numbers = { 8, 2, 7, 1, 4, 9, 5};
+		
+		   double[] myList1 = new double[10];
+		   
+		   double[] myList = {1.9, 2.9, 3.4, 3.5};
+
+		      // Print all the array elements
+		      for (double element: myList) {
+		         System.out.println(element);
+		      }
+		
+		  Integer[] numbers = { 8, 2, 7, 1, 4, 9, 5};
 	      int min = (int) Collections.min(Arrays.asList(numbers));
 	      int max = (int) Collections.max(Arrays.asList(numbers));
 	      System.out.println("Min number: " + min);

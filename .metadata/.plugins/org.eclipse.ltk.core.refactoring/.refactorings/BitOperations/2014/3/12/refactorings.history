@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;OperatorExamples/src&apos;&#x0A;- Original project: &apos;BitOperations&apos;&#x0A;- Destination element: &apos;OperatorExamples/src&apos;&#x0A;- Original elements:&#x0A;     com.hkg.test.BitUtility.java&#x0A;     com.hkg.test.BitOperationsTest.java" description="Copy compilation units" destination="=OperatorExamples/src" element1="/src&lt;com.hkg.test{BitUtility.java" element2="/src&lt;com.hkg.test{BitOperationsTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1395046514678" units="2" version="1.0"/>
+</session>
