@@ -26,6 +26,16 @@ public class DatatypeTest {
 		char bchar = '\u0008';
 		System.out.println("The bchar"+ bchar+"was.");
 		
+		int x = 7 >>> 1;
+		System.out.println(x);
+		
+		int y = -7 >> 1;
+		System.out.println(y);
+		
+		int z = -7 >> 1;
+		System.out.println(z);
+		
+		
 	}
 
 }

@@ -5,6 +5,6 @@ public class WidenAndBoxTest {
 
 	public static void main(String[] args) {
 		byte b = 5;
-		go(b); // must widen then box - illegal
+		//go(b); // must widen then box - illegal
 	}
 }

@@ -1,0 +1,25 @@
+
+public class NumberTest {
+
+	public static void main(String[] args) {
+		Integer x = 5; 
+	    System.out.println(x); 
+	    System.out.println("The max value is: " +Integer.MAX_VALUE);
+	    System.out.println("The min value is: " +Integer.MIN_VALUE);
+	    System.out.println("The bit count is " +Integer.bitCount(x));
+	    System.out.println("The parse int is " +Integer.parseInt("12"));
+	    System.out.println("The parse int is " +Integer.parseInt("12", 16));
+	    System.out.println("The highest one bit is " +Integer.highestOneBit(x));
+	    System.out.println("The leading zeros is " +Integer.numberOfLeadingZeros(x));
+	    System.out.println("The reverse is " +Integer.reverse(x));
+	    System.out.println("The rotate left by 2 is " +Integer.rotateLeft(x, 2));
+	    System.out.println("The binary string is " +Integer.toBinaryString(x));
+	    System.out.println("The compare is: " +Integer.compare(4, 7));
+	    System.out.println("The valueOf is: " +Integer.valueOf(9));
+	    System.out.println("The valueOf is: " +Integer.valueOf("9"));
+	    
+	    System.out.println("The intValue is: " +x.intValue());
+	    System.out.println("The max value is: " +x.MAX_VALUE);
+	}
+
+}

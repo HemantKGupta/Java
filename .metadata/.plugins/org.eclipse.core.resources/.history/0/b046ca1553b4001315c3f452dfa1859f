@@ -1,0 +1,11 @@
+public class Test {
+	Priority priority;
+
+	Test(Priority priority) {
+		this.priority = priority;
+	}
+}
+
+enum Priority {
+	HIGH, MEDIUM, LOW
+}
