@@ -1,0 +1,26 @@
+public class CustomExceptionTest {
+
+	public static void main(String[] args) {
+		try
+	      {
+	         new  CustomExceptionTest().test();
+	      }catch(MyException e)
+	      {
+	         System.out.println("test");
+	         e.printStackTrace();
+	      }
+	}
+	
+	public void test() throws MyException{
+		throw new MyException();
+	}
+
+}
+
+class MyException extends Exception{
+	
+	MyException(){
+		super("cewo");
+	}
+	
+}

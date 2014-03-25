@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+import java.util.List;
+
+public class ModifyCollectionTest {
+
+	public static void main(String[] args) {
+		
+		List<StringBuilder> lst = new LinkedList<StringBuilder>();
+		lst.add(new StringBuilder("123"));
+		lst.add(new StringBuilder("345"));
+		
+		System.out.println(lst);
+		
+		for (StringBuilder stringBuilder : lst) {
+			stringBuilder.append("00");
+		}
+		
+		System.out.println(lst);
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class AccessSuperClassMethodsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class MySuperclass {
+
+    public void printMethod() {
+        System.out.println("Printed in Superclass.");
+    }
+}
+
+class MySubclass extends MySuperclass {
+
+ 
+    public void printMethod() {
+        super.printMethod();
+        System.out.println("Printed in Subclass");
+    }
+    public static void main(String[] args) {
+        MySubclass s = new MySubclass();
+        s.printMethod();    
+    }
+}

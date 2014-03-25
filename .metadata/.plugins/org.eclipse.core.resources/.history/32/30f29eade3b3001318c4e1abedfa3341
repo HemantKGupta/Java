@@ -1,0 +1,31 @@
+
+public class HidingStaticMethod {
+
+	public static void main(String[] args) {
+	    MyCat myCat = new MyCat();
+        MyAnimal myAnimal = myCat;
+        MyAnimal.testClassMethod();
+        myAnimal.testInstanceMethod();
+	}
+
+}
+
+class MyAnimal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Animal");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Animal");
+    }
+}
+
+class MyCat extends MyAnimal {
+    public static void testClassMethod() {
+        System.out.println("The static method in Cat");
+    }
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Cat");
+    }
+   
+}
+

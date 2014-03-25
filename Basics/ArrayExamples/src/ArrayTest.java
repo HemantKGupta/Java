@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Collections;
+
 
 public class ArrayTest {
 
@@ -8,6 +11,7 @@ public class ArrayTest {
 		printArray(myList1);
 
 		Double[] myList2 = { 1.9, 2.9, 3.4, 3.5 };
+		Collections.reverse(Arrays.asList(myList2));
 		
 		printArray(myList2);
 		

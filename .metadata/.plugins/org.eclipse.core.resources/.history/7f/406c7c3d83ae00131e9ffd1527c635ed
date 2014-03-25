@@ -1,0 +1,9 @@
+package com.hkg.test;
+
+public class GeneralTest {
+
+	public static void main(String[] args) {
+		System.out.printf("%s%n", DayOfWeek.MONDAY.plus(3));
+	}
+
+}

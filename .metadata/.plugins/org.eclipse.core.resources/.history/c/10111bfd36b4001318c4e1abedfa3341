@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+import java.util.List;
+
+public class ModifyCollectionTest {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void test(){
+		
+		List<StringBuilder> lst = new LinkedList<Stringbuilder>();
+		
+	}
+
+}

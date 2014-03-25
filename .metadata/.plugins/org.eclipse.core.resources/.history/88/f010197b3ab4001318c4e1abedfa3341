@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class CollectionsMethodTest {
+
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<String>();
+		list.add("mfnew");
+		list.add("Vdsfw");
+		list.add("Dsfve");
+		list.add("vwe");
+
+		Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
+		System.out.println(list);
+		
+		
+	}
+
+}
