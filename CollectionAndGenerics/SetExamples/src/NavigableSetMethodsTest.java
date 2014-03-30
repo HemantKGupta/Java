@@ -5,26 +5,47 @@ import java.util.*;
 public class NavigableSetMethodsTest {
 
   public static void main(String[] args) {
-    NavigableSet<String> stringSet = new TreeSet<String>();
+	  
+    NavigableSet<String> stringSet = new TreeSet<String>();    
     Collections.addAll(stringSet, "abc", "cde", "x-ray" ,"zed");
-    String last = stringSet.floor("x-ray");
-    assert last.equals("x-ray");
-    String secondToLast =
-            last == null ? null : stringSet.lower(last);
-    String thirdToLast =
-            secondToLast == null ? null : stringSet.lower(secondToLast);
-    assert thirdToLast.equals("abc");
-    NavigableSet<String> headSet = stringSet.headSet(last, true);
-    NavigableSet<String> reverseHeadSet = headSet.descendingSet();
-    assert reverseHeadSet.toString().equals("[x-ray, cde, abc]");
-    String conc = " ";
-    for (String s : reverseHeadSet) {
-      conc += s + " ";
+    
+    // reverse 
+    for (Iterator<String> itr = stringSet.descendingIterator(); itr.hasNext(); ) {
+        System.out.print(" "+itr.next()); 
     }
-    assert conc.equals(" x-ray cde abc ");
-    for (Iterator<String> itr = headSet.descendingIterator(); itr.hasNext(); ) {
-      itr.next(); itr.remove();
-    }
-    assert headSet.isEmpty();
+    System.out.println();
+    
+    NavigableSet<String> reverseHeadSet = stringSet.descendingSet();
+    System.out.println(reverseHeadSet);
+    
+    // ceiling floor heigher lower
+    String floor = stringSet.floor("cdf");
+    System.out.println(floor);
+    
+    String ceiling = stringSet.ceiling("zd");
+    System.out.println(ceiling);
+    
+    String lower = stringSet.lower(ceiling);
+    System.out.println(lower);
+    
+    String higher = stringSet.higher(floor);
+    System.out.println(higher);
+    
+    // headset tailset subset
+    NavigableSet<String> headSet = stringSet.headSet("x-ray", true);
+    System.out.println(headSet);
+    
+    NavigableSet<String> tailset = stringSet.tailSet("cde", true);
+    System.out.println(tailset);
+    
+    SortedSet<String> subset = stringSet.subSet("abc", "x-ray");
+    System.out.println(subset);
+    
+    tailset.pollFirst();
+    tailset.pollLast();
+    System.out.println(tailset);
+    
+    
+    
   }
 }

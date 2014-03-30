@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class BasicListOperationsTest {
+
+	public static void main(String[] args) {
+	List<String> al = new ArrayList<String>();
+        //add elements to the ArrayList
+        al.add("JAVA");
+        al.add("C++");
+        al.add("PERL");
+        al.add("PHP");
+	}
+
+}

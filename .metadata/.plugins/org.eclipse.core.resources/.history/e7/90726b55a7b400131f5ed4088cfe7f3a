@@ -1,0 +1,42 @@
+
+public class DatatypeTest {
+	static byte b;
+	static short s;
+	static int i;
+	static long l;
+	static float f;
+	static double d;
+	static boolean bln;
+	public static void main(String[] args) {
+	
+		System.out.println("The byte"+ b);
+		System.out.println("The short"+ s);
+		System.out.println("The int"+ i);
+		System.out.println("The long"+ l);
+		System.out.println("The float"+ f);
+		System.out.println("The double"+ d);
+		
+		int octal = 044;
+		int hexa =  0x44;
+		
+		System.out.println("The octal"+ octal);
+		System.out.println("The hexa"+ hexa);
+		char achar = '\u0020';
+		System.out.println("The achar"+ achar+"was.");
+		char bchar = '\u0008';
+		System.out.println("The bchar"+ bchar+"was.");
+		
+		int x = 7 >>> 1;
+		System.out.println(x);
+		
+		int y = -7 >> 1;
+		System.out.println(y);
+		
+		int z = -7 >>> 1;
+		System.out.println(Integer.toBinaryString(-7));
+		System.out.println(z);
+		
+		
+	}
+
+}

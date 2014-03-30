@@ -1,0 +1,20 @@
+import java.util.Deque;
+import java.util.LinkedList;
+
+
+public class DequeOperationsTest {
+
+	public static void main(String[] args) {
+		Deque<String> deque = new LinkedList<String>();
+	      deque.add(15);
+	      deque.add(22);
+	      deque.add(25);
+	      deque.add(20);
+
+	      System.out.println("printing elements using iterator:");
+	      for(Iterator itr = deque.iterator();itr.hasNext();)  {
+	        System.out.println(itr.next());
+	      }
+	}
+
+}

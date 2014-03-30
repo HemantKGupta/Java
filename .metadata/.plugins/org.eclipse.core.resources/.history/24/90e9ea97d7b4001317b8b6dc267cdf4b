@@ -1,0 +1,21 @@
+import java.util.Hashtable;
+
+
+public class HashtableTest {
+
+	public static void main(String[] args) {
+        Hashtable<String,String> ht = new Hashtable<String,String>();
+        ht.put("first", "FIRST INSERTED");
+        ht.put("second", "SECOND INSERTED");
+        ht.put("third","THIRD INSERTED");
+        System.out.println(ht);
+        System.out.println("Value of key 'second': "+ht.get("second"));
+        System.out.println("Is Hashtable empty? "+ht.isEmpty());
+        ht.remove("third");
+        System.out.println(ht);
+        System.out.println("Size of the Hashtable: "+ht.size());
+        
+        
+	}
+
+}

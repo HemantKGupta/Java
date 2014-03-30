@@ -1,0 +1,26 @@
+import java.util.TreeMap;
+
+public class TreeMapOperationsTest {
+
+	public static void main(String[] args) {
+		
+		TreeMap<String, String> hm = new TreeMap<String, String>();
+		hm.put("first", "FIRST INSERTED");
+		hm.put("second", "SECOND INSERTED");
+		hm.put("third", "THIRD INSERTED");
+		
+		System.out.println(hm);
+		System.out.println("Value of second: " + hm.get("second"));
+		System.out.println("Is TreeMap empty? " + hm.isEmpty());
+		hm.remove("third");
+		System.out.println(hm);
+		System.out.println("Size of the TreeMap: " + hm.size());
+		
+		Map<String, String> subMap1 = hm.subMap("game", "java");
+        System.out.println("Sub-Map enties:");
+        System.out.println(subMap1);
+		
+		
+	}
+
+}

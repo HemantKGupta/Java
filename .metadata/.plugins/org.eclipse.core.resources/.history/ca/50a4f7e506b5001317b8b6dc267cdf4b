@@ -1,0 +1,30 @@
+
+
+import java.util.*;
+
+public class NavigableSetMethodsTest {
+
+  public static void main(String[] args) {
+	  
+    NavigableSet<String> stringSet = new TreeSet<String>();    
+    Collections.addAll(stringSet, "abc", "cde", "x-ray" ,"zed");
+    
+    // reverse 
+    for (Iterator<String> itr = stringSet.descendingIterator(); itr.hasNext(); ) {
+        System.out.print(" "+itr.next()); 
+    }
+    System.out.println();
+    
+    NavigableSet<String> reverseHeadSet = stringSet.descendingSet();
+    System.out.println(reverseHeadSet);
+    
+    // ceiling floor heigher lower
+    String last = stringSet.floor("x-ray");
+    System.out.println(last);
+    String secondToLast = last == null ? null : stringSet.lower(last);
+    
+    // headset tailset subset
+    NavigableSet<String> headSet = stringSet.headSet(last, true);
+    
+  }
+}

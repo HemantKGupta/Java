@@ -1,0 +1,12 @@
+import java.util.Deque;
+import java.util.LinkedList;
+
+
+public class DequeOperationsTest {
+
+	public static void main(String[] args) {
+		Deque<String> dequeA = new LinkedList<String>();
+
+	}
+
+}

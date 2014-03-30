@@ -7,10 +7,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class MyScannerTest2 {
-
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		Scanner s = null;
         double sum = 0;

@@ -32,4 +32,6 @@
 			<item value="org.eclipse.egit.ui.GitCategory"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

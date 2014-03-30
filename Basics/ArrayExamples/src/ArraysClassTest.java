@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 
 public class ArraysClassTest {
@@ -9,7 +10,9 @@ public class ArraysClassTest {
 		  
 		  System.out.println(Arrays.toString(numbers));
 		  
-		  System.out.println(Arrays.asList(numbers));		  
+		  List<Integer> list = Arrays.asList(numbers);
+		  
+		  System.out.println(list);		  
 			      
 	      Double[] myList3 = { 1.9, 2.9, 3.4, 3.5 };	    
 	      

@@ -11,13 +11,13 @@ public class PriorityQueueTest {
 				return o1.getPriority().compareTo(o2.getPriority());
 			}
 		};
-		
-		Queue<Test> priorityQueue = new PriorityQueue<Test>(10, priorityComp);
-		priorityQueue.add(new Test(Priority.MEDIUM));
-		priorityQueue.add(new Test(Priority.HIGH));
-		priorityQueue.add(new Test(Priority.LOW));
 
-		Test test = priorityQueue.poll();
+		Queue<Test> pq = new PriorityQueue<Test>(10, priorityComp);
+		pq.add(new Test(Priority.MEDIUM));
+		pq.add(new Test(Priority.HIGH));
+		pq.add(new Test(Priority.LOW));
+
+		Test test = pq.poll();
 		System.out.println(test.priority);
 	}
 }
