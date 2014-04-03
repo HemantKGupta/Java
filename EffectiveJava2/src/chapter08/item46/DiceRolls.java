@@ -1,5 +1,5 @@
 // Same bug as NestIteration.java (but different symptom)!! - Page 213
-package org.effectivejava.examples.chapter08.item46;
+package chapter08.item46;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -1,5 +1,5 @@
 // Cooperative thread termination with a volatile field
-package org.effectivejava.examples.chapter10.item66.fixedstopthread2;
+package chapter10.item66.fixedstopthread2;
 
 import java.util.concurrent.TimeUnit;
 

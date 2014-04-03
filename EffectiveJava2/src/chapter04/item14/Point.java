@@ -1,5 +1,5 @@
 // Encapsulation of data by accessor methods and mutators
-package org.effectivejava.examples.chapter04.item14;
+package chapter04.item14;
 
 class Point {
 	private double x;

@@ -1,5 +1,5 @@
 // Broken "immutable" time period class - Page 184
-package org.effectivejava.examples.chapter07.item39;
+package chapter07.item39;
 
 import java.util.Date;
 

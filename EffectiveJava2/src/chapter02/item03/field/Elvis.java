@@ -1,5 +1,5 @@
 // Singleton with public final field - Page 17
-package org.effectivejava.examples.chapter02.item03.field;
+package chapter02.item03.field;
 
 public class Elvis {
 	public static final Elvis INSTANCE = new Elvis();

@@ -1,5 +1,5 @@
 // Generic static factory method - Pages 130-131
-package org.effectivejava.examples.chapter05.item27;
+package chapter05.item27;
 
 import java.util.HashMap;
 import java.util.List;

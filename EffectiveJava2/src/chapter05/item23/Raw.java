@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter05.item23;
+package chapter05.item23;
 
 import java.util.ArrayList;
 import java.util.List;

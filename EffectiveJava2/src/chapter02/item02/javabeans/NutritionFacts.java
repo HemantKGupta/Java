@@ -1,5 +1,5 @@
 // JavaBeans Pattern - allows inconsistency, mandates mutability - Pages 12-13
-package org.effectivejava.examples.chapter02.item02.javabeans;
+package chapter02.item02.javabeans;
 
 public class NutritionFacts {
 	// Parameters initialized to default values (if any)

@@ -1,5 +1,5 @@
 // Use of asSubclass to safely cast to a bounded type token - Page 146
-package org.effectivejava.examples.chapter05.item29;
+package chapter05.item29;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;

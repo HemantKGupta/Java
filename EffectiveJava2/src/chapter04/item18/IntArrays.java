@@ -1,5 +1,5 @@
 // Concrete implementation built atop skeletal implementation - Page 95
-package org.effectivejava.examples.chapter04.item18;
+package chapter04.item18;
 
 import java.util.AbstractList;
 import java.util.Collections;

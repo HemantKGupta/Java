@@ -1,5 +1,5 @@
 // Broken - Inappropriate use of inheritance!
-package org.effectivejava.examples.chapter04.item16;
+package chapter04.item16;
 
 import java.util.Arrays;
 import java.util.Collection;

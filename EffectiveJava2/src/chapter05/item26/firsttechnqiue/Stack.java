@@ -1,5 +1,5 @@
 // Generic stack using E[] - Pages 125-127
-package org.effectivejava.examples.chapter05.item26.firsttechnqiue;
+package chapter05.item26.firsttechnqiue;
 
 import java.util.Arrays;
 

@@ -1,5 +1,5 @@
 // Public class with exposed immutable fields - questionable
-package org.effectivejava.examples.chapter04.item14;
+package chapter04.item14;
 
 public final class Time {
 	private static final int HOURS_PER_DAY = 24;

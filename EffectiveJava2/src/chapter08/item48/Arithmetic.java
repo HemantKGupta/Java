@@ -1,5 +1,5 @@
 // Avoid float and double if exact answers are required!! - Page 48
-package org.effectivejava.examples.chapter08.item48;
+package chapter08.item48;
 
 import java.math.BigDecimal;
 

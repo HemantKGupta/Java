@@ -1,5 +1,5 @@
 // Takes earth-weight and prints table of weights on all planets - Page 150
-package org.effectivejava.examples.chapter06.item30;
+package chapter06.item30;
 
 public class WeightTable {
 	public static void main(String[] args) {

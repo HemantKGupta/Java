@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter03.item12;
+package chapter03.item12;
 
 import java.util.Collections;
 import java.util.Set;

@@ -1,5 +1,5 @@
 // Reusable forwarding class - Page 84
-package org.effectivejava.examples.chapter04.item16;
+package chapter04.item16;
 
 import java.util.Collection;
 import java.util.Iterator;

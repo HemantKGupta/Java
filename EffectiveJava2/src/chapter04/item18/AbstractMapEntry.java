@@ -1,5 +1,5 @@
 // Skeletal Implementation - Page 96
-package org.effectivejava.examples.chapter04.item18;
+package chapter04.item18;
 
 import java.util.Map;
 

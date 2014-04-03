@@ -1,5 +1,5 @@
 // Doesn't creates unnecessary duplicate objects - page 21
-package org.effectivejava.examples.chapter02.item05.fastversion;
+package chapter02.item05.fastversion;
 
 import java.util.Calendar;
 import java.util.Date;

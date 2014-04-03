@@ -1,5 +1,5 @@
 // Broken! - What does this program print?
-package org.effectivejava.examples.chapter07.item41;
+package chapter07.item41;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

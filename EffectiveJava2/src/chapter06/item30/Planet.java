@@ -1,5 +1,5 @@
 // Enum type with data and behavior - Pages 149-150
-package org.effectivejava.examples.chapter06.item30;
+package chapter06.item30;
 
 public enum Planet {
 	MERCURY(3.302e+23, 2.439e6), VENUS(4.869e+24, 6.052e6), EARTH(5.975e+24,

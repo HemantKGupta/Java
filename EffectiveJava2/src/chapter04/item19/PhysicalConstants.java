@@ -1,5 +1,5 @@
 // Constant utility class
-package org.effectivejava.examples.chapter04.item19;
+package chapter04.item19;
 
 public class PhysicalConstants {
 	private PhysicalConstants() {

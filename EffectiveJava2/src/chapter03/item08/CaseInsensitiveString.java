@@ -1,5 +1,5 @@
 // Broken - violates symmetry! - Pages 36-37
-package org.effectivejava.examples.chapter03.item08;
+package chapter03.item08;
 
 public final class CaseInsensitiveString {
 	private final String s;

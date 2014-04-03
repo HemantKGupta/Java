@@ -1,5 +1,5 @@
 // Sample uses of varargs
-package org.effectivejava.examples.chapter07.item42;
+package chapter07.item42;
 
 public class Varargs {
 

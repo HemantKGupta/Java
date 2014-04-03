@@ -1,5 +1,5 @@
 // The strategy enum pattern
-package org.effectivejava.examples.chapter06.item30;
+package chapter06.item30;
 
 enum PayrollDay {
 	MONDAY(PayType.WEEKDAY), TUESDAY(PayType.WEEKDAY), WEDNESDAY(

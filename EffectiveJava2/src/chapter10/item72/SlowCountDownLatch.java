@@ -1,5 +1,5 @@
 // Awful CountDownLatch implementation - busy-waits incessantly!
-package org.effectivejava.examples.chapter10.item72;
+package chapter10.item72;
 
 public class SlowCountDownLatch {
 	private int count;

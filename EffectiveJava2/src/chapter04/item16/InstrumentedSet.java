@@ -1,5 +1,5 @@
 // Wrapper class - uses composition in place of inheritance - Page 84
-package org.effectivejava.examples.chapter04.item16;
+package chapter04.item16;
 
 import java.util.Arrays;
 import java.util.Collection;

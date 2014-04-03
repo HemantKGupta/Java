@@ -1,5 +1,5 @@
 // More complex test of ObservableSet - Page 267
-package org.effectivejava.examples.chapter10.item67;
+package chapter10.item67;
 
 import java.util.HashSet;
 

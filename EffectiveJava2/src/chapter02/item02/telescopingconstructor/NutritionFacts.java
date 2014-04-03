@@ -1,5 +1,5 @@
 // Telescoping constructor pattern - does not scale well! - Pages 11-12
-package org.effectivejava.examples.chapter02.item02.telescopingconstructor;
+package chapter02.item02.telescopingconstructor;
 
 public class NutritionFacts {
 	private final int servingSize; // (mL) required

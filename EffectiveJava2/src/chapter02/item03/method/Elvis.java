@@ -1,5 +1,5 @@
 // Singleton with static factory - Page 17
-package org.effectivejava.examples.chapter02.item03.method;
+package chapter02.item03.method;
 
 public class Elvis {
 	private static final Elvis INSTANCE = new Elvis();

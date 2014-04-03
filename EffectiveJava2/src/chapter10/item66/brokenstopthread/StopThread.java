@@ -1,5 +1,5 @@
 // Broken! - How long would you expect this program to run? - Page 259
-package org.effectivejava.examples.chapter10.item66.brokenstopthread;
+package chapter10.item66.brokenstopthread;
 
 import java.util.concurrent.TimeUnit;
 

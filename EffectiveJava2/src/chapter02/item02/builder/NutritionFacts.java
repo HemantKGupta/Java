@@ -1,5 +1,5 @@
 // Builder Pattern - Pages 14-15
-package org.effectivejava.examples.chapter02.item02.builder;
+package chapter02.item02.builder;
 
 public class NutritionFacts {
 	private final int servingSize;

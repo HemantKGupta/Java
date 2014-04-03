@@ -1,5 +1,5 @@
 // Random number generation is hard! - Page 47
-package org.effectivejava.examples.chapter08.item47;
+package chapter08.item47;
 
 import java.util.Random;
 

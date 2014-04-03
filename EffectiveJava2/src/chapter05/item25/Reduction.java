@@ -1,5 +1,5 @@
 // List-based generic reduction - Page 123
-package org.effectivejava.examples.chapter05.item25;
+package chapter05.item25;
 
 import java.util.ArrayList;
 import java.util.Arrays;

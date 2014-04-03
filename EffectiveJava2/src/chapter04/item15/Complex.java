@@ -1,5 +1,5 @@
 // Immutable class - pages 76-78
-package org.effectivejava.examples.chapter04.item15;
+package chapter04.item15;
 
 public final class Complex {
 	private final double re;

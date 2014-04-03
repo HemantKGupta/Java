@@ -1,5 +1,5 @@
 // A cloneable version of Stack - Pages 56-57
-package org.effectivejava.examples.chapter03.item11;
+package chapter03.item11;
 
 import java.util.Arrays;
 

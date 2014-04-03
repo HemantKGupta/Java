@@ -1,5 +1,5 @@
 // Can you spot the bug? - Page 46
-package org.effectivejava.examples.chapter08.item46;
+package chapter08.item46;
 
 import java.util.ArrayList;
 import java.util.Arrays;

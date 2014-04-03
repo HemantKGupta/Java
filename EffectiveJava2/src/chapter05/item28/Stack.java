@@ -1,5 +1,5 @@
 // Generic stack with bulk methods using wildcard types - 
-package org.effectivejava.examples.chapter05.item28;
+package chapter05.item28;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,5 +1,5 @@
 // Generic stack using Object[] - Pages 125-127
-package org.effectivejava.examples.chapter05.item26.secondtechnqiue;
+package chapter05.item26.secondtechnqiue;
 
 import java.util.Arrays;
 

@@ -1,5 +1,5 @@
 // Enum singleton - the preferred approach - page 18
-package org.effectivejava.examples.chapter02.item03.enumoration;
+package chapter02.item03.enumoration;
 
 public enum Elvis {
 	INSTANCE;

@@ -1,5 +1,5 @@
 // Tagged class - vastly inferior to a class hierarchy!
-package org.effectivejava.examples.chapter04.Item20.taggedclass;
+package chapter04.Item20.taggedclass;
 
 class Figure {
 	enum Shape {

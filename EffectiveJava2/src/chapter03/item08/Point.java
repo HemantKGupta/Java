@@ -1,5 +1,5 @@
 // Simple immutable two-dimensional integer point class - Page 37
-package org.effectivejava.examples.chapter03.item08;
+package chapter03.item08;
 
 public class Point {
 	private final int x;

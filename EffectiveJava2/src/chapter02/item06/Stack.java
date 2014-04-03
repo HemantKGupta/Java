@@ -1,5 +1,5 @@
 // Can you spot the "memory leak"?
-package org.effectivejava.examples.chapter02.item06;
+package chapter02.item06;
 
 import java.util.Arrays;
 

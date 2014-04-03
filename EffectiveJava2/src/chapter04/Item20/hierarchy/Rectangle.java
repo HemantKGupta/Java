@@ -1,4 +1,4 @@
-package org.effectivejava.examples.chapter04.Item20.hierarchy;
+package chapter04.Item20.hierarchy;
 
 class Rectangle extends Figure {
 	final double length;

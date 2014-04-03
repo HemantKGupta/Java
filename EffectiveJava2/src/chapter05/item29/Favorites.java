@@ -1,5 +1,5 @@
 // Typesafe heterogeneous container - Pages 142-145
-package org.effectivejava.examples.chapter05.item29;
+package chapter05.item29;
 
 import java.util.HashMap;
 import java.util.Map;
