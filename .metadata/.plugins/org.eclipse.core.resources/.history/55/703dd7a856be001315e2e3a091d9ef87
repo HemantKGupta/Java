@@ -1,0 +1,10 @@
+package chapter06.item30;
+
+public class OperationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

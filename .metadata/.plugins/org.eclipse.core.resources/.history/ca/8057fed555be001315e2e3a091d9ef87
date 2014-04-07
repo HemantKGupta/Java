@@ -1,0 +1,8 @@
+package chapter06.item30;
+
+public enum Operation1 {
+	PLUS
+	{ double apply(double x, double y){return x+y;},
+
+}
+	

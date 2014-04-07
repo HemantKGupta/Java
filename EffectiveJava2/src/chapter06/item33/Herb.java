@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// Simplistic class representing a culinary herb - Page 161
+// Simplistic class representing a culinary herb 
 public class Herb {
 	public enum Type {
 		ANNUAL, PERENNIAL, BIENNIAL
@@ -33,7 +33,7 @@ public class Herb {
 				new Herb("Parsley", Type.BIENNIAL),
 				new Herb("Rosemary", Type.PERENNIAL) };
 
-		// Using an EnumMap to associate data with an enum - Page 162
+		// Using an EnumMap to associate data with an enum 
 		Map<Herb.Type, Set<Herb>> herbsByType = new EnumMap<Herb.Type, Set<Herb>>(
 				Herb.Type.class);
 		for (Herb.Type t : Herb.Type.values())

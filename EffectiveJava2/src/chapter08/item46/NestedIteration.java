@@ -31,13 +31,15 @@ public class NestedIteration {
 		Collection<Rank> ranks = Arrays.asList(Rank.values());
 
 		List<Card> deck = new ArrayList<Card>();
+		
+		// Bug
 		for (Iterator<Suit> i = suits.iterator(); i.hasNext();)
 			for (Iterator<Rank> j = ranks.iterator(); j.hasNext();)
 				deck.add(new Card(i.next(), j.next()));
 
-		// Preferred idiom for nested iteration on collections and arrays
-		// for (Suit suit : suits)
-		// for (Rank rank : ranks)
-		// deck.add(new Card(suit, rank));
+		//Preferred idiom for nested iteration on collections and arrays
+		for (Suit suit : suits)
+			for (Rank rank : ranks)
+				deck.add(new Card(suit, rank));
 	}
 }

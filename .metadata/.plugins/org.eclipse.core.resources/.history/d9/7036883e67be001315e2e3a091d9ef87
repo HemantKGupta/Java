@@ -1,0 +1,9 @@
+package chapter07.item43;
+
+public class EmptyCollectionReturnTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

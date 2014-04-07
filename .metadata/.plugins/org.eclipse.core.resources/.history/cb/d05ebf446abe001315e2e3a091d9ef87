@@ -1,0 +1,18 @@
+package chapter08.item49;
+
+import java.util.Comparator;
+
+public class BoxedPrimitiveTest {
+
+	public static void main(String[] args) {
+		naturalOrder.compare(new Integer(42), new Integer(42))
+	}
+
+	// Broken comparator - can you spot the flaw?
+	public static Comparator<Integer> naturalOrder = new Comparator<Integer>() {
+		public int compare(Integer first, Integer second) {
+			return first < second ? -1 : (first == second ? 0 : 1);
+		}
+	};
+
+}

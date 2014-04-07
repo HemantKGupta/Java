@@ -8,6 +8,11 @@ public class Swap {
 	public static void swap(List<?> list, int i, int j) {
 		swapHelper(list, i, j);
 	}
+	// Won't compile
+	/*public static void swap2(List<?> list, int i, int j) {
+		list.set(i, list.set(j, list.get(i)));
+	}*/
+
 
 	// Private helper method for wildcard capture
 	private static <E> void swapHelper(List<E> list, int i, int j) {

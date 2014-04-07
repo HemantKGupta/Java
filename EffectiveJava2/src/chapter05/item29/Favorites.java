@@ -14,6 +14,7 @@ public class Favorites {
 		favorites.put(type, instance);
 	}
 
+	// Achieving runtime type safety with a dynamic cast
 	public <T> T getFavorite(Class<T> type) {
 		return type.cast(favorites.get(type));
 	}

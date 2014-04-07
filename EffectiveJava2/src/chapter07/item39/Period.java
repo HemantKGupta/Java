@@ -55,6 +55,4 @@ public final class Period {
 	public String toString() {
 		return start + " - " + end;
 	}
-
-	// Remainder omitted
 }

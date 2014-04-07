@@ -13,9 +13,18 @@ public class Bigram {
 		this.second = second;
 	}
 
-	public boolean equals(Bigram b) {
+	// Wrong 
+	/*public boolean equals(Bigram b) {
 		return b.first == first && b.second == second;
-	}
+	}*/
+	
+	@Override public boolean equals(Object o) {
+		if (!(o instanceof Bigram))
+		return false;
+		Bigram b = (Bigram) o;
+		return b.first == first && b.second == second;
+		}
+
 
 	public int hashCode() {
 		return 31 * first + second;

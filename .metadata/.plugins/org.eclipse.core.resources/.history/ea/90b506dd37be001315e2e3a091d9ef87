@@ -1,0 +1,12 @@
+package chapter05.item25;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// Fails at runtime!
+		Object[] objectArray = new Long[1];
+		objectArray[0] = "I don't fit in"; // Throws ArrayStoreException
+
+	}
+
+}

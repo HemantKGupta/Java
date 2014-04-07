@@ -32,6 +32,7 @@ public class Arithmetic {
 		System.out.println("Change: $" + funds);
 	}
 
+	//correct
 	public static void howManyCandies2() {
 		final BigDecimal TEN_CENTS = new BigDecimal(".10");
 
