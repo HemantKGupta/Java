@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayExamples/ArrayExamples.iml" filepath="$PROJECT_DIR$/ArrayExamples/ArrayExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment/Assignment.iml" filepath="$PROJECT_DIR$/Assignment/Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BitOperations/BitOperations.iml" filepath="$PROJECT_DIR$/BitOperations/BitOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlow/ControlFlow.iml" filepath="$PROJECT_DIR$/ControlFlow/ControlFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatatypeExamples/DatatypeExamples.iml" filepath="$PROJECT_DIR$/DatatypeExamples/DatatypeExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DateTimeExamples/DateTimeExamples.iml" filepath="$PROJECT_DIR$/DateTimeExamples/DateTimeExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeclarationAndAccess/DeclarationAndAccess.iml" filepath="$PROJECT_DIR$/DeclarationAndAccess/DeclarationAndAccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EnumExamples/EnumExamples.iml" filepath="$PROJECT_DIR$/EnumExamples/EnumExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionExamples/ExceptionExamples.iml" filepath="$PROJECT_DIR$/ExceptionExamples/ExceptionExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FormatExamples/FormatExamples.iml" filepath="$PROJECT_DIR$/FormatExamples/FormatExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeneralExamples/GeneralExamples.iml" filepath="$PROJECT_DIR$/GeneralExamples/GeneralExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClassesExamples/InnerClassesExamples.iml" filepath="$PROJECT_DIR$/InnerClassesExamples/InnerClassesExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOrientation/ObjectOrientation.iml" filepath="$PROJECT_DIR$/ObjectOrientation/ObjectOrientation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperatorExamples/OperatorExamples.iml" filepath="$PROJECT_DIR$/OperatorExamples/OperatorExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegExExamples/RegExExamples.iml" filepath="$PROJECT_DIR$/RegExExamples/RegExExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringExamples/StringExamples.iml" filepath="$PROJECT_DIR$/StringExamples/StringExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WrapperExamples/WrapperExamples.iml" filepath="$PROJECT_DIR$/WrapperExamples/WrapperExamples.iml" />
+    </modules>
+  </component>
+</project>
+

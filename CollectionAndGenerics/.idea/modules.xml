@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collection-General/Collection-General.iml" filepath="$PROJECT_DIR$/Collection-General/Collection-General.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection-JGAC-Book/Collection-JGAC-Book.iml" filepath="$PROJECT_DIR$/Collection-JGAC-Book/Collection-JGAC-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionExamples/CollectionExamples.iml" filepath="$PROJECT_DIR$/CollectionExamples/CollectionExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics-JGAC-Book/Generics-JGAC-Book.iml" filepath="$PROJECT_DIR$/Generics-JGAC-Book/Generics-JGAC-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListExamples/ListExamples.iml" filepath="$PROJECT_DIR$/ListExamples/ListExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapExamples/MapExamples.iml" filepath="$PROJECT_DIR$/MapExamples/MapExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueExamples/QueueExamples.iml" filepath="$PROJECT_DIR$/QueueExamples/QueueExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetExamples/SetExamples.iml" filepath="$PROJECT_DIR$/SetExamples/SetExamples.iml" />
+    </modules>
+  </component>
+</project>
+
