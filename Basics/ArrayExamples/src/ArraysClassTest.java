@@ -14,7 +14,7 @@ public class ArraysClassTest {
 		  
 		  System.out.println(list);		  
 			      
-	      Double[] myList3 = { 1.9, 2.9, 3.4, 3.5 };	    
+	      Double[] myList3 = { 1.9, 2.9, 3.4, 3.5, 4.5};
 	      
 	      System.out.println(Arrays.binarySearch(myList3,3.4));
 	      
